@@ -3,10 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />	  
+    <link href="Style.css" rel="stylesheet" type="text/css" />	  
 </head>	  
 <body>
+<div class="well text-center">
+		
+		<br><br><h1>Rock, Paper, Scissors </h1><br>
+		<h2>Lets play Rock, Paper, Scissors:<br> You versus the computer</h2>
+		<br><br> 
+		<h3 id="textfield"></h3>
+	
+		<br><br><br>
+		<h3 id="textfield2"></h3>
+		
+		<br><br><br>
+		<input type="button" id="button" class="btn " value="rock" onclick="game()">
+		<input type="button" id="button" class="btn " value="paper" onclick="game()">
+		<input type="button" id="button" class="btn " value="scissors" onclick="game()">
+		
+	</div>
+	<br>
+	<div class="well text-center">
+		
+		<input type="reset" value="Play Again" onclick="reset()">
 
+	</div>
+	<br><br><hr><br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<form id="scoreBoard" class="form" role="form">
+					<label for="plyScr" class="col-sm-6"> Player Score:  </label>
+						<div class="col-sm-6">
+							<h3 id="plyScr">0</h3>
+						</div>
+					<label for="cpuScr" class="col-sm-6"> Computer Score:  </label>
+						<div class="col-sm-6">
+							<h3 id="cpuScr">0</h3>
+						</div>
+					<label for="currentRound" class="col-sm-6"> Current Round:  </label>
+						<div class="col-sm-6">
+							<h3 id="currentRound">0</h3>
+						</div>
+				</form>
+			</div>
+		</div>	
+	</div>
+	<script src="RPSScript.js"></script>
 	 
 </body>
 </html>
