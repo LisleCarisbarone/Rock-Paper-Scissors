@@ -1,6 +1,6 @@
 
 	let layerScore = 1
-  let computerScore = 1;  
+	let computerScore = 1;  
 		
 	// function defining the computers choices and how to randomly generate a choice. 
 	function computerPlay() {    
@@ -12,7 +12,7 @@
 			} else { 
 				return 'scissors';        
 			}     
-		}
+		  }
     
 	//function defining a single round of Rock, Paper, Scissors - who wins and who
 	function playRound(playerSelection, computerSelection) {
